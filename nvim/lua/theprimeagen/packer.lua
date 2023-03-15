@@ -62,19 +62,5 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
-
-	-- Packer
-	use({
-	  "jackMort/ChatGPT.nvim",
-        config = function()
-            require("chatgpt").setup({options})
-        end,
-		requires = {
-		  "MunifTanjim/nui.nvim",
-		  "nvim-lua/plenary.nvim",
-		  "nvim-telescope/telescope.nvim"
-		}
-	})
-
 end)
 
