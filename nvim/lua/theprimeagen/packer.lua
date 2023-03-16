@@ -62,5 +62,7 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+
+  use { 'Decodetalkers/csharpls-extended-lsp.nvim' }
 end)
 
